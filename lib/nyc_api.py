@@ -24,6 +24,7 @@ class GetPrograms:
 # print(programs)
 
 programs = GetPrograms()
+#how it appears on the terminal 
 programs_schools = programs.program_school()
 
 for school in set(programs_schools):
